@@ -11,7 +11,7 @@ public class DLElgibility {
 	public static void main(String[] args) {
 
 		int age = 6;
-		if (age >= 16 && age < 18)
+		if ((age >= 16) && (age < 18))
 			System.out.println("Eligible for Learner License Registration (LLR)");
 		else if (age >= 18)
 			System.out.println("Eligible for Normal Driving Licence");
